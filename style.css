@@ -1,6 +1,25 @@
 body {
+  display: flex;
+  flex-direction: column;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+h1 {
+  color: pink;
 }
 #no {
   position: absolute;
+  background-color: red;
+  margin-left: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: rgb(135, 194, 135);
+  border-radius: 5px;
+  border: none;
+  max-width: fit-content;
 }

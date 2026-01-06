@@ -5,6 +5,7 @@ const no = document.querySelector("#no");
 yes.addEventListener("click", () => {
   h1.innerText = "Love You Too Babe";
   no.style.display = "none";
+  yes.style.display = "none";
 });
 
 no.addEventListener("mouseover", (e) => {
